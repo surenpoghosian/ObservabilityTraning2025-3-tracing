@@ -48,6 +48,12 @@ services:
       - "3001:3000"
     volumes:
       - grafana-data:/var/lib/grafana
+  jaeger:
+    image: jaegertracing/all-in-one:1.49
+    ports:
+      - "16686:16686"
+      - "4318:4318"
+
 
 volumes:
   grafana-data:
