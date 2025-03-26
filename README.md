@@ -1,4 +1,9 @@
-### Access grafana at 
+### Access Jaeger at
+- url - `http://localhost:16686`
+
+look for service `observability-tracing`
+
+### Access Grafana at 
 - url - `http://localhost:3001`
 - username - `admin`
 - password - `admin`

@@ -6,6 +6,7 @@ import { User } from "./entities/User";
 import logger from "./utils/logger";
 import pinoHttp from "pino-http";
 import client from "prom-client";
+import './tracing'
 
 const app = express();
 
@@ -46,9 +47,6 @@ const httpRequestCounter = new client.Counter({
   help: "Total number of HTTP requests",
   labelNames: ["method", "route", "status"],
 });
-
-
-
 
 export const AppDataSource = new DataSource({
   type: "postgres",
