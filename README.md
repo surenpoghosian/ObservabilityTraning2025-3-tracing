@@ -1,7 +1,15 @@
+## Run the project first
+
+```sh
+docker compose up --build
+```
+
 ### Access Jaeger at
 - url - `http://localhost:16686`
 
 look for service `observability-tracing`
+
+<img width="1728" alt="Screenshot 2025-03-26 at 18 05 21" src="https://github.com/user-attachments/assets/be1a5fc1-255a-4fe0-b906-5fa15e6ec64f" />
 
 ### Access Grafana at 
 - url - `http://localhost:3001`
