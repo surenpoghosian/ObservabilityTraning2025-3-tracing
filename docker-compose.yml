@@ -48,6 +48,8 @@ services:
       - "3001:3000"
     volumes:
       - grafana-data:/var/lib/grafana
+      - ./grafana/provisioning:/etc/grafana/provisioning
+
   jaeger:
     image: jaegertracing/all-in-one:1.49
     ports:
