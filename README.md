@@ -10,6 +10,7 @@ docker compose up --build
 look for service `observability-tracing`
 
 <img width="1728" alt="Screenshot 2025-03-26 at 18 05 21" src="https://github.com/user-attachments/assets/be1a5fc1-255a-4fe0-b906-5fa15e6ec64f" />
+<img width="1728" alt="Screenshot 2025-03-26 at 20 04 08" src="https://github.com/user-attachments/assets/7f139b97-344d-45fa-b72f-6f855880cb35" />
 
 ### Access Grafana at 
 - url - `http://localhost:3001`
@@ -19,6 +20,7 @@ look for service `observability-tracing`
 look for the metric `http_requests_total`
 
 <img width="1728" alt="Screenshot 2025-03-25 at 18 13 13" src="https://github.com/user-attachments/assets/cc6e218c-1ae8-4418-a7d5-a7bb99017e84" />
+<img width="1728" alt="Screenshot 2025-03-26 at 20 17 19" src="https://github.com/user-attachments/assets/1bc46fe4-33cc-4dac-be80-cf99a7f5dd83" />
 
 ### View logs
 ```sh
